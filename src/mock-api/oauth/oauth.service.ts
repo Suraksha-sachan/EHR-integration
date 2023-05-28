@@ -1,0 +1,11 @@
+import { Injectable } from "@nestjs/common";
+
+@Injectable()
+export class OauthApiService {
+
+    async getToken() {
+        return {
+            "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxNDkiLCJqdGkiOiJhZDI5M2M4Y2ExNzcyZDM3Y2Y1ODc2M2Y1ZmM1OWExODk2MDQxYjM2ZjgzZTVjNGI5NmZmMmJjYjMzMGI0MTYzYWJkMmZmNjhkZGZjMDczZSIsImlhdCI6MTY4MzE5MjIzOSwibmJmIjoxNjgzMTkyMjM5LCJleHAiOjI2Mjk5NjM0MzksInN1YiI6IiIsInNjb3BlcyI6W119.tyLq0bGpOHyGZbpPdKB4vt3aMWmqvlYPIsHww-zSZ4ihPuKbG48o-IuGs61GOVSF-Pr8zZpx0LEKWx_kBXUlE0E78w9jL6sUSuvELY5Lj5jILZOm5L0nWJCSJz7j_k7TGC19z92lVCldj8lU9tMe9RjbbYyn814RgJInMf7O7QS0b9uYIMfTPvKGxRb5u5C9nT4wnFBYPEpUpQAWNFSZNgBY90X5vRtKO3T-jdKvGWxK6wqmqe4y_ebbTnkCmxluThCTnrKHfhfSMJgon-hGADmuiftlhBr-6OcKOMl0go94YG5W3vryc5tZIRJAMAYoWw8wFtCbF29hAV1lpqWZeSgNpVborxZnZEZ1r7D9B6Ylc5czDbOzyD0M8GhGay89zfIGmqsmonXYtk8FXrXZ3bElQwlaJGqjo1I2lpdn6WiPRRkO0z1j3-fcFuXY4YQylx90fY8gIwcFU8Y53WpfvL8l1j2AJ7ZBqKAxDe993s6eZzGmlUskk-1vDwkRYXGB8E5REz1e-Ol2CseGKNSUVU0Don6u2suGpSeSomXhOUO4K6MQxQbG8WHuDXIn8a9Hk8QB_g0H3C0WozG9s791hr4RPj7C3_f7-RGOxFC61qUq1FTF61sinp_mbPZumLYh17SlrRdtl-jhVBMAH9nlvm9e1r7oJp4mUw3qPPEnmeY"
+        }
+    }
+}
